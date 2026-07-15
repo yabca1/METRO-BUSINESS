@@ -1,0 +1,185 @@
+@import "./detail-animations.css";
+@import "./overlay-animations.css";
+@import "tailwindcss";
+
+:root {
+  --background: #FAFAFA;
+  --foreground: #212121;
+}
+
+@theme {
+  --color-brand-primary: #18181B;
+  --color-brand-secondary: #E5E5E5;
+  --color-brand-accent: #F3BB1C;
+  --color-brand-white: #FFFFFF;
+  --color-brand-dark: #212121;
+  --color-brand-page: #FAFAFA;
+  --color-brand-muted: #828282;
+  --color-brand-surface: #F7F7F7;
+  --color-brand-border: #F3F3F3;
+  --color-brand-indicator: #BDBAC1;
+  --color-brand-indicator-dark: #1B1B1B;
+  --color-brand-success: #12C48B;
+  --color-brand-danger: #FB5A62;
+  --color-brand-track: #E9ECF1;
+  --color-brand-shadow: #04060F;
+  --color-brand-violet: #8937F5;
+  --color-brand-keypad: #D0D4DC;
+  --color-brand-link: #2783D4;
+  --color-brand-blue: #0088FF;
+  --color-brand-ink: #211332;
+  --color-brand-completed: #34C759;
+  --color-brand-pending: #FFCC00;
+  --color-brand-gray: #666666;
+  --color-transfer-surface: #F8F8F8;
+  --color-transfer-secondary: #E4E4E7;
+
+  --color-card-virtual-start: #8199AC;
+  --color-card-virtual-end: #5B7E97;
+  --color-card-metal-start: #292D32;
+  --color-card-metal-end: #344054;
+  --color-card-standard-start: rgb(242 124 150 / 51%);
+  --color-card-standard-end: #F27C96;
+
+  --radius-card: 1.25rem;
+  --color-brand-field-border: #E1E1E1;
+
+  --spacing-detail-panel-min: 23.25rem;
+
+  --font-sans: var(--font-urbanist-regular), system-ui, sans-serif;
+  --font-urbanist: var(--font-urbanist-regular);
+  --font-orbitron: var(--font-orbitron-regular);
+  --font-orbitron-bold: var(--font-orbitron-bold);
+  --font-protest-strike: var(--font-protest-strike), sans-serif;
+  --text-detail-title: 1.75rem;
+  --text-detail-title--line-height: 2rem;
+  --text-detail-meta: 0.625rem;
+  --text-detail-meta--line-height: 0.875rem;
+  --text-detail-timeline: 0.6875rem;
+  --text-detail-timeline--line-height: 1.5rem;
+  --font-urbanist-regular: var(--font-urbanist-regular);
+  --font-urbanist-light: var(--font-urbanist-light);
+  --font-urbanist-medium: var(--font-urbanist-medium);
+  --font-urbanist-semibold: var(--font-urbanist-semibold);
+  --font-urbanist-bold: var(--font-urbanist-bold);
+  --font-urbanist-extrabold: var(--font-urbanist-extrabold);
+  --font-urbanist-black: var(--font-urbanist-black);
+  --font-poppins-regular: var(--font-poppins-regular);
+  --font-poppins-medium: var(--font-poppins-medium);
+  --font-poppins-semibold: var(--font-poppins-semibold);
+
+  /* Exact Figma type ramp shared by the top nav + recipient screens */
+  --text-fig-28: 1.75rem;
+  --text-fig-28--line-height: 2rem;
+  --text-fig-20: 1.25rem;
+  --text-fig-20--line-height: 1.375rem;
+  --text-fig-14: 0.875rem;
+  --text-fig-14--line-height: 1.5rem;
+  --text-fig-12: 0.75rem;
+  --text-fig-12--line-height: 1.05rem;
+  --text-fig-10: 0.625rem;
+  --text-fig-10--line-height: 0.875rem;
+  --text-fig-7: 0.4375rem;
+  --text-fig-7--line-height: 0.4375rem;
+  --text-fig-40: 2.5rem;
+  --text-fig-40--line-height: 1;
+}
+
+@keyframes auth-step-in {
+  from {
+    opacity: 0;
+    transform: translateY(12px) scale(0.985);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.auth-step-in {
+  animation: auth-step-in 0.4s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+html,
+body {
+  background: var(--color-brand-page);
+  color: var(--color-brand-dark);
+  font-family: var(--font-urbanist-regular), system-ui, sans-serif;
+}
+
+.card-surface {
+  border-radius: 0.25rem;
+  background:
+    linear-gradient(to bottom right, var(--card-gradient-start) 0%, var(--card-gradient-end) 50%) bottom right / 50% 50% no-repeat,
+    linear-gradient(to bottom left, var(--card-gradient-start) 0%, var(--card-gradient-end) 50%) bottom left / 50% 50% no-repeat,
+    linear-gradient(to top left, var(--card-gradient-start) 0%, var(--card-gradient-end) 50%) top left / 50% 50% no-repeat,
+    linear-gradient(to top right, var(--card-gradient-start) 0%, var(--card-gradient-end) 50%) top right / 50% 50% no-repeat;
+}
+
+.card-surface-virtual {
+  --card-gradient-start: var(--color-card-virtual-start);
+  --card-gradient-end: var(--color-card-virtual-end);
+}
+
+.card-surface-metal {
+  --card-gradient-start: var(--color-card-metal-start);
+  --card-gradient-end: var(--color-card-metal-end);
+}
+
+.card-surface-standard {
+  --card-gradient-start: var(--color-card-standard-start);
+  --card-gradient-end: var(--color-card-standard-end);
+}
+
+.detail-split-grid {
+  display: grid;
+  gap: 1.75rem;
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.detail-split-grid.is-open {
+  grid-template-columns: minmax(0, 3fr) minmax(var(--spacing-detail-panel-min), 1fr);
+}
+
+.detail-split-main,
+.detail-split-panel {
+  width: 100%;
+}
+
+.card-split-grid {
+  display: grid;
+  gap: 1.75rem;
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.card-split-grid.is-open {
+  grid-template-columns: minmax(0, 1fr) var(--spacing-detail-panel-min);
+}
+
+.card-list-grid {
+  display: grid;
+  grid-template-columns: 1.25rem 1.65fr 1.1fr 0.85fr 0.85fr 1.2fr 1.15fr 1.15fr;
+  column-gap: 1.25rem;
+  min-height: 3.875rem;
+}
+
+.card-list-grid:first-child {
+  min-height: 2.75rem;
+}
+
+@media (max-width: 1180px) {
+  .detail-split-grid,
+  .detail-split-grid.is-open {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .card-split-grid,
+  .card-split-grid.is-open {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+.invoice-transfer-row {
+  display: grid;
+  grid-template-columns: 1.65fr 0.8fr 0.8fr 0.7fr 0.65fr;
+}
