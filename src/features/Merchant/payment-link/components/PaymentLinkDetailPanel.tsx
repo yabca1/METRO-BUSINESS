@@ -219,3 +219,4 @@ function truncateUrl(url: string) {
   if (url.length <= 42) return url
   return `${url.slice(0, 38)}..`
 }
+// TODO: Review merchant page logic

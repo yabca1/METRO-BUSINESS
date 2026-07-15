@@ -16,3 +16,4 @@ export interface QrCode {
   url: string
   handle: string
 }
+// TODO: Review merchant page logic

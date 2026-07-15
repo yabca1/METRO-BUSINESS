@@ -105,3 +105,4 @@ export const qrCodeColumns: ColumnDef<QrCodeModel>[] = [
     ),
   },
 ]
+// TODO: Review merchant page logic

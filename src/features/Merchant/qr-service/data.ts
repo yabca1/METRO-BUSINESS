@@ -47,3 +47,4 @@ export const QR_CODES: QrCode[] = [
     handle: '@metrobusiness',
   },
 ]
+// TODO: Review merchant page logic

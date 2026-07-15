@@ -108,3 +108,4 @@ export const paymentLinkColumns: ColumnDef<PaymentLink>[] = [
     ),
   },
 ]
+// TODO: Review merchant page logic
