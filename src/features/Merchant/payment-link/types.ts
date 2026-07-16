@@ -34,3 +34,4 @@ export interface BrandingDetails {
   theme: 'blue' | 'purple' | 'pink' | 'teal'
   merchantName: string
 }
+// TODO: Review merchant page logic

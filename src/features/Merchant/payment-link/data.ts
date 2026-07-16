@@ -168,3 +168,4 @@ export const THEME_SWATCHES = [
   { id: 'pink' as const, className: 'bg-[#EC4899]' },
   { id: 'teal' as const, className: 'bg-[#14B8A6]' },
 ]
+// TODO: Review merchant page logic

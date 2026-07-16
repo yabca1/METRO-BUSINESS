@@ -18,3 +18,4 @@ export const IN_STORE_PRODUCTS: InStoreProduct[] = [
     accent: 'reader',
   },
 ]
+// TODO: Review merchant page logic

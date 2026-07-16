@@ -95,3 +95,4 @@ export function QrCodeTable() {
     </div>
   )
 }
+// TODO: Review merchant page logic

@@ -11,3 +11,4 @@ export interface CartItem {
   productId: string
   quantity: number
 }
+// TODO: Review merchant page logic
