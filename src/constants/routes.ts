@@ -40,4 +40,5 @@ export const ROUTES = {
 
   // Existing
   SETTINGS:    '/settings',
+  SETTINGS_LANGUAGE: '/settings/language',
 } as const
