@@ -1,5 +1,6 @@
 'use client'
 
+// Merchant — Branding theme color swatches
 import * as React from 'react'
 import { cn } from '@/lib/utils'
 

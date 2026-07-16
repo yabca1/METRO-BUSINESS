@@ -1,5 +1,6 @@
 'use client'
 
+// Merchant — Payment Link detail header panel
 import * as React from 'react'
 import { Check, Copy, Mail, Pause, QrCode } from 'lucide-react'
 import { CloseIcon, MoreIcon } from '@/components/icons/vuesax'

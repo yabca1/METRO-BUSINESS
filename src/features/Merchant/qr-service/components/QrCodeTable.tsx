@@ -1,5 +1,6 @@
 'use client'
 
+// Merchant — QR Code table with filters and detail panel
 import { Plus, Settings } from 'lucide-react'
 import {
   DataTable,

@@ -1,3 +1,4 @@
+// Merchant — Payment Link table columns
 import { Copy, Link2 } from 'lucide-react'
 import type { ColumnDef } from '@/components/ui/DataTable'
 import { formatAmount } from '@/lib/currency'

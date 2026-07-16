@@ -1,5 +1,6 @@
 'use client'
 
+// Merchant — QR Code detail header panel
 import * as React from 'react'
 import Image from 'next/image'
 import { Check, Copy, Download, Mail, Pause } from 'lucide-react'

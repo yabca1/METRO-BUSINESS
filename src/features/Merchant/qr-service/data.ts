@@ -1,3 +1,4 @@
+// Merchant — QR Service mock data
 import type { QrCode } from './types'
 
 export const QR_CODES: QrCode[] = [

@@ -1,5 +1,6 @@
 'use client'
 
+// Merchant — In-Store shop screen
 import * as React from 'react'
 import { IN_STORE_PRODUCTS } from '../data'
 import type { CartItem } from '../types'

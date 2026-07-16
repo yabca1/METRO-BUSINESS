@@ -1,5 +1,6 @@
 'use client'
 
+// Merchant — Payment Link table with filters and detail panel
 import Link from 'next/link'
 import { Plus, Settings } from 'lucide-react'
 import {

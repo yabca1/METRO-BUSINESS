@@ -1,5 +1,6 @@
 'use client'
 
+// Merchant — Branding form section (logo, color, business details)
 import * as React from 'react'
 import { MoreHorizontal, Pencil } from 'lucide-react'
 import { Button } from '@/components/ui/Button'

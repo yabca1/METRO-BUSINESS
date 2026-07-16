@@ -1,3 +1,4 @@
+// Merchant — In-Store types
 export interface InStoreProduct {
   id: string
   name: string

@@ -1,5 +1,6 @@
 'use client'
 
+// Merchant — Payment Link form section (amount, account, advanced options)
 import * as React from 'react'
 import { ArrowRightIcon, ArrowUpIcon, CalendarIcon } from '@/components/icons/vuesax'
 import { Button } from '@/components/ui/Button'

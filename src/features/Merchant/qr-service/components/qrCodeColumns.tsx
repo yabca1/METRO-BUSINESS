@@ -1,3 +1,4 @@
+// Merchant — QR Code table columns
 import { Download, QrCode } from 'lucide-react'
 import type { ColumnDef } from '@/components/ui/DataTable'
 import { formatAmount } from '@/lib/currency'

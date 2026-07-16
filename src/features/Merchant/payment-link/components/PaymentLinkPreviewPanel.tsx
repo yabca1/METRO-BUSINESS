@@ -1,5 +1,6 @@
 'use client'
 
+// Merchant — Payment Link preview panel with branding link
 import * as React from 'react'
 import type { BrandingDetails } from '../types'
 import { PaymentLinkPreview } from './PaymentLinkPreview'

@@ -1,5 +1,6 @@
 'use client'
 
+// Merchant — In-Store cart component
 import * as React from 'react'
 import { Minus, Plus, ShoppingCart } from 'lucide-react'
 import { Button } from '@/components/ui/Button'

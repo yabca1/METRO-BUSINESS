@@ -1,5 +1,6 @@
 'use client'
 
+// Merchant — Payment Link settings screen
 import { useRouter } from 'next/navigation'
 import { Bell, CalendarDays, Palette } from 'lucide-react'
 import { BackChip } from '@/features/auth/components/BackChip'

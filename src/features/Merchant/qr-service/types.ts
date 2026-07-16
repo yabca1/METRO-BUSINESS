@@ -1,3 +1,4 @@
+// Merchant — QR Service types
 export type QrCodeType = 'static' | 'dynamic'
 export type QrCodeStatus = 'active' | 'completed' | 'paused'
 
