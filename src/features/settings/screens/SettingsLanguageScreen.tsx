@@ -14,6 +14,7 @@ import { LanguageList } from '@/features/settings/components/LanguageList'
 
 const languages = LANGUAGES
 
+/** Language selection screen with sidebar navigation */
 export function SettingsLanguageScreen() {
   const router = useRouter()
   const [activeIndex, setActiveIndex] = useState(0)

@@ -3,7 +3,6 @@
  * Defines the navigation groups rendered in SettingsNavSidebar
  * and the available languages for the Language selection screen.
  */
-// src/features/settings/data.ts
 import { ROUTES } from '@/constants/routes'
 
 export type SettingsNavItem = {
@@ -17,6 +16,7 @@ export type SettingsNavItem = {
 
 export type SettingsNavGroup = SettingsNavItem[][]
 
+// Navigation groups for the settings sidebar — each sub-array is a visual section
 export const SETTINGS_NAV_GROUPS: SettingsNavGroup = [
   [
     { label: 'Account', icon: '/icons/settings/account.svg' },
@@ -47,6 +47,7 @@ export type Language = {
   active?: boolean
 }
 
+// Available languages shown in the language picker
 export const LANGUAGES: Language[] = [
   {
     name: 'English',

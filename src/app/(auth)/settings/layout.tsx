@@ -1,4 +1,8 @@
-// src/app/(auth)/settings/layout.tsx
+/** 
+ * Settings layout — overlay/modal wrapper for the settings screens
+ * Renders settings content as a fullscreen overlay with backdrop blur.
+ * Supports closing via Escape key or clicking outside the content area.
+ */
 'use client'
 
 import * as React from 'react'

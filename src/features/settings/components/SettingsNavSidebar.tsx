@@ -3,12 +3,12 @@
  * Groups settings links (Account, Security, Language, etc.) into sections.
  * Highlights the active item based on the activeLabel prop.
  */
-// src/features/settings/components/SettingsNavSidebar.tsx
 'use client'
 
 import { useRouter } from 'next/navigation'
 import { SETTINGS_NAV_GROUPS } from '@/features/settings/data'
 
+// Individual nav button with icon, label, and active highlight
 function SettingsNavItem({
   label,
   icon,

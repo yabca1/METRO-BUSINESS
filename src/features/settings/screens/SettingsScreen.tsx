@@ -18,6 +18,7 @@ type AppearanceOption = {
   active?: boolean
 }
 
+// Theme options: auto-detect, light, or dark
 const appearanceOptions: AppearanceOption[] = [
   {
     title: 'Same as device',
