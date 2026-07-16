@@ -1,3 +1,8 @@
+/** 
+ * SettingsLanguageScreen — language selection view
+ * Displays a list of available languages with variants (e.g. English UK, Amharic)
+ * and allows the user to select their preferred language.
+ */
 'use client'
 
 import { useState } from 'react'

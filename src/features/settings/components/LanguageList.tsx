@@ -1,3 +1,8 @@
+/** 
+ * LanguageList — renders a list of language options
+ * Each item shows the language name, variant (e.g. UK, American), and a description.
+ * Highlights the currently active language with a selected indicator.
+ */
 // src/features/settings/components/LanguageList.tsx
 
 import { type Language } from '@/features/settings/data'

@@ -1,3 +1,8 @@
+/** 
+ * SettingsScreen — main settings view (Appearance tab)
+ * Displays appearance theme options (same as device / light / dark)
+ * alongside a navigation sidebar for other settings sections.
+ */
 'use client'
 
 import { useState } from 'react'

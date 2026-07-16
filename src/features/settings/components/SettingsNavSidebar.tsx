@@ -1,3 +1,8 @@
+/** 
+ * SettingsNavSidebar — navigation sidebar for the settings overlay
+ * Groups settings links (Account, Security, Language, etc.) into sections.
+ * Highlights the active item based on the activeLabel prop.
+ */
 // src/features/settings/components/SettingsNavSidebar.tsx
 'use client'
 

@@ -1,3 +1,8 @@
+/** 
+ * Settings data constants and types
+ * Defines the navigation groups rendered in SettingsNavSidebar
+ * and the available languages for the Language selection screen.
+ */
 // src/features/settings/data.ts
 import { ROUTES } from '@/constants/routes'
 
