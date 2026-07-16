@@ -77,3 +77,4 @@ function ProductVisual({ kind }: { kind: InStoreProduct['accent'] }) {
     </div>
   )
 }
+//git commit -m "Add ProductGrid component for merchant page"
