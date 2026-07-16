@@ -39,7 +39,6 @@ export type Language = {
   name: string
   variant: string
   description: string
-  icon: string
   active?: boolean
 }
 
@@ -48,31 +47,26 @@ export const LANGUAGES: Language[] = [
     name: 'English',
     variant: 'UK',
     description: 'Click here to change to UK English language',
-    icon: '/icons/settings/language-flag.svg',
     active: true,
   },
   {
     name: 'English',
     variant: 'American',
     description: 'Click here to change to American English language',
-    icon: '/icons/settings/language-flag.svg',
   },
   {
     name: 'Amharic',
     variant: 'አማርኛ',
     description: 'Click here to change to Amharic language',
-    icon: '/icons/settings/language-generic.svg',
   },
   {
     name: 'Afan Oromo',
     variant: 'Oromiffa',
     description: 'Click here to change to Afan Oromo language',
-    icon: '/icons/settings/language-generic.svg',
   },
   {
     name: 'Tigregna',
     variant: 'ትግርኛ',
     description: 'Click here to change to Tigregna language',
-    icon: '/icons/settings/language-generic.svg',
   },
 ]

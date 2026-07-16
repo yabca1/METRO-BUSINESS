@@ -7,10 +7,9 @@ function LanguageItem({
   name,
   variant,
   description,
-  icon,
   active,
   onSelect,
-}: Language & { onSelect: () => void }) {
+}: Omit<Language, 'icon'> & { onSelect: () => void }) {
   return (
     <button
       type="button"
@@ -23,9 +22,6 @@ function LanguageItem({
       )}
     >
       <div className="flex items-center gap-3">
-        <div className="flex size-11 shrink-0 items-center justify-center overflow-hidden rounded-full bg-brand-surface/80">
-          <img src={icon} alt={name} className="size-11 rounded-full object-cover" />
-        </div>
         <div>
           <div className="flex items-center gap-2">
             <p className="text-fig-14 font-urbanist-semibold text-brand-primary">{name}</p>
