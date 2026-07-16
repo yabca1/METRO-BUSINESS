@@ -1,3 +1,4 @@
+// Merchant — Payment Link mock data
 import type { BrandingDetails, PaymentLink } from './types'
 
 export const PAYMENT_LINKS: PaymentLink[] = [

@@ -1,5 +1,6 @@
 'use client'
 
+// Merchant — Payment Link preview card wrapper
 import * as React from 'react'
 import type { BrandingDetails } from '../types'
 import { PaymentLinkPreview } from './PaymentLinkPreview'

@@ -1,3 +1,4 @@
+// Merchant — In-Store mock data
 import type { InStoreProduct } from './types'
 
 export const IN_STORE_PRODUCTS: InStoreProduct[] = [

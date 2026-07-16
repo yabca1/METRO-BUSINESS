@@ -1,5 +1,6 @@
 'use client'
 
+// Merchant — Branding screen (brand assets customization)
 import * as React from 'react'
 import { useRouter } from 'next/navigation'
 import { MoreHorizontal } from 'lucide-react'

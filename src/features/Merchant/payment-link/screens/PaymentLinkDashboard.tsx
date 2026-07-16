@@ -1,5 +1,6 @@
 'use client'
 
+// Merchant — Payment Links dashboard screen
 import { PaymentLinkTable } from '../components/PaymentLinkTable'
 
 export function PaymentLinkDashboard() {

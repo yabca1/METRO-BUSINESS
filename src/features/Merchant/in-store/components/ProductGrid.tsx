@@ -1,5 +1,6 @@
 'use client'
 
+// Merchant — Product grid component for in-store shop
 import * as React from 'react'
 import { cn } from '@/lib/utils'
 import { formatAmount } from '@/lib/currency'
@@ -77,3 +78,4 @@ function ProductVisual({ kind }: { kind: InStoreProduct['accent'] }) {
     </div>
   )
 }
+//git commit -m "Add ProductGrid component for merchant page"

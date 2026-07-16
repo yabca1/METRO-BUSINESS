@@ -1,5 +1,6 @@
 'use client'
 
+// Merchant — Payment Link preview (desktop/mobile modes)
 import type { ReactNode } from 'react'
 import { cn } from '@/lib/utils'
 import type { BrandingDetails } from '../types'

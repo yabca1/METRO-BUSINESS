@@ -1,5 +1,6 @@
 'use client'
 
+// Merchant — QR Code detail panel wrapper
 import * as React from 'react'
 import { cn } from '@/lib/utils'
 import type { QrCode as QrCodeModel } from '../types'

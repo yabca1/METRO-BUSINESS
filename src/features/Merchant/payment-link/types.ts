@@ -1,3 +1,4 @@
+// Merchant — Payment Link types
 export type PaymentLinkStatus = 'active' | 'completed' | 'paused'
 
 export interface PaymentLinkPayer {
